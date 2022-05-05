@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "casperbot",
+  "description": "CasperBot para testar o aprendizado do DialogFlow + JavaScript",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusEderman/CasperBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusEderman/CasperBot/issues"
+  },
+  "homepage": "https://github.com/ViniciusEderman/CasperBot#readme"
+}
