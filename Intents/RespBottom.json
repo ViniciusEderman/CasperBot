@@ -1,42 +1,42 @@
 {
     "richContent": [
-        [
-            {
-                "type": "buttom",
-                "icon": {
-                    "type": "", 
-                    "color": "#FF9800"
-                },
-                "text": "Esportes",
-                "link": "https://github.com/ViniciusEderman"
-            },
-            {
-                "type": "buttom",
-                "icon": {
-                    "type": "", 
-                    "color": "#FF9800"
-                },
-                "text": "Política",
-                "link": "https://github.com/ViniciusEderman"
-            },
-            {
-                "type": "buttom",
-                "icon": {
-                    "type": "", 
-                    "color": "#FF9800"
-                },
-                "text": "Entretenimento",
-                "link": "https://github.com/ViniciusEderman"
-            },
-            {
-                "type": "buttom",
-                "icon": {
-                    "type": "", 
-                    "color": "#FF9800"
-                },
-                "text": "Famosos",
-                "link": "https://github.com/ViniciusEderman"
-            }
-        ]
+      [
+        {
+          "type": "button",
+          "text": "Esportes",
+          "link": "https://github.com/ViniciusEderman",
+          "icon": {
+            "color": "#FF9800",
+            "type": ""
+          }
+        },
+        {
+          "link": "https://github.com/ViniciusEderman",
+          "type": "button",
+          "text": "Politica",
+          "icon": {
+            "type": "",
+            "color": "#FF9800"
+          }
+        },
+        {
+          "link": "https://github.com/ViniciusEderman",
+          "icon": {
+            "color": "#FF9800",
+            "type": ""
+          },
+          "type": "button",
+          "text": "Entretenimento"
+        },
+        {
+          "link": "https://github.com/ViniciusEderman",
+          "text": "Famosos",
+          "icon": {
+            "type": "",
+            "color": "#FF9800"
+          },
+          "type": "button"
+        }
+      ]
     ]
-}
+  }
