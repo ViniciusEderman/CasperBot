@@ -1,0 +1,275 @@
+{
+    "id": "e18a43c7-7df1-4bf7-a4ea-8322dab9a805",
+    "name": "Default Welcome Intent",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [
+      {
+        "name": "WELCOME"
+      }
+    ],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "input.welcome",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {
+          "facebook": true
+        },
+        "messages": [
+          {
+            "type": "quick_reply",
+            "platform": "facebook",
+            "condition": "",
+            "title": "TEMAS:",
+            "replies": [
+              "Política",
+              "Entretenimento",
+              "Famosos",
+              "Esportes"
+            ]
+          },
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Olá, tudo bem? Me chamo Casper seu assistente pessoal. Irei te listar os tipos de notícias logo abaixo:"
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "boa ",
+            "userDefined": false
+          },
+          {
+            "text": "noite",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "944384c3-c3d9-466d-a813-ba6cbe23bbd2",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "boa ",
+            "userDefined": false
+          },
+          {
+            "text": "tarde",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          }
+        ],
+        "count": 0,
+        "id": "d2fd8f15-ab75-4160-80b5-ac47c7d8a5c3",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "bom dia",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "d61835bf-cd17-4930-b1c0-2fe1e4b4148a",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "olá quero",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " saber as noticias",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "0eda301d-8c87-47c8-8991-be137f95c44e",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "iniciar conversa",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "d9777aba-2f71-4b58-9974-8c7f4e015304",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "falar com",
+            "userDefined": false,
+            "meta": "@sys.ignore",
+            "alias": null
+          },
+          {
+            "text": " agente",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "dfb3eb85-86aa-46c5-bfb8-8eea7d53d8c8",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "há quanto tempo",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "2bae9418-e04a-4ed9-af5e-f8c012ad0ce5",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "olá",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "952ebe40-7d4b-47e7-8ac2-d06bfab7fd14",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "oi",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "1b1dd02c-d36a-4beb-9abf-144b32066ab9",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "opa",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "b54e9b5d-ca1a-48c4-9d9a-f57d480a22b1",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "fala aí",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "f3460561-549c-452e-909b-10ad2c8da12c",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "fala",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "50f4a90b-8da9-4e68-b7d0-d1ffb863a028",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "saudações",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "f7ca866a-339b-4889-88a8-187bf7a3dec9",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "oi tudo bem",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "68645e7d-c855-4059-88e0-d8413eb420df",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "e aí",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "dab80c07-5f3d-4dbb-ac39-07eb9c7233e7",
+        "updated": null
+      },
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "eae",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "b5b9dfb8-b17b-4be5-90b1-0168c34c8a72",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }
