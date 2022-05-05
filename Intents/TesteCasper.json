@@ -1,0 +1,74 @@
+{
+    "id": "9b878f51-af05-4669-a006-7ccaf361588d",
+    "name": "teste.casper",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": []
+          },
+          {
+            "type": "custom_payload",
+            "condition": "",
+            "payload": {
+              "payload": {
+                "elements": [
+                  {
+                    "buttons": "",
+                    "subtitle": "Você receberá notícias sobre esportes",
+                    "default_action": {
+                      "type": "web_url",
+                      "webview_height_ratio": "FULL",
+                      "url": "<DEFAULT_URL_TO_OPEN>",
+                      "messenger_extensions": "TRUE"
+                    },
+                    "image_url": "https://poupafarma.com.br/wp-content/uploads/2017/03/imgesportes.jpg",
+                    "title": "Espotes"
+                  }
+                ],
+                "template_type": "generic"
+              }
+            }
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "teste",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "2ea50ca1-1134-4576-8ceb-a5371323c2c6",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }
