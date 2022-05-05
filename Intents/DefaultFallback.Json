@@ -1,0 +1,42 @@
+{
+    "id": "0bb52211-d930-44b1-a2c6-bf4889f4e607",
+    "name": "Default Fallback Intent",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": true,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "input.unknown",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Lamento, mas não compreendi.",
+              "Desculpe, mas não compreendi.",
+              "Não consegui compreender, desculpe."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }
