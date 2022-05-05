@@ -15,6 +15,10 @@ app.get('/', function(request, response) {
 });
 
 
+app.post('/testeWebHook', function(request, response) {
+  response.json();
+});
+
 const path = require("path");
 
 const fastify = require("fastify")({
