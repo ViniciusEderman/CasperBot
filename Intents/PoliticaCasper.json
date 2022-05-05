@@ -1,0 +1,66 @@
+{
+    "id": "b3d98ba6-396b-4fc4-bfe9-6192c26d2296",
+    "name": "Politica.Casper",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {
+          "facebook": true
+        },
+        "messages": [
+          {
+            "type": "quick_reply",
+            "platform": "facebook",
+            "condition": "",
+            "title": "TEMAS:",
+            "replies": [
+              "Entretenimento",
+              "Esportes",
+              "Famosos"
+            ]
+          },
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Peço perdão, ainda não há notícias sobre o tema escolhido. Por favor escolha outro tipo."
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Política",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "de4be1bc-37f0-466a-8179-9cfbb90ed8f4",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }
