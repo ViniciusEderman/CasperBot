@@ -1,0 +1,87 @@
+{
+    "id": "a715ed1e-1155-4d4a-ab7b-2bc0ac1c0f97",
+    "name": "Esporte.Casper",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {
+          "facebook": true
+        },
+        "messages": [
+          {
+            "type": "custom_payload",
+            "platform": "facebook",
+            "condition": "",
+            "payload": {
+              "facebook": {
+                "attachment": {
+                  "payload": {
+                    "elements": [
+                      {
+                        "image_url": "https://i.ytimg.com/vi/-LSq9ZVKtdA/maxresdefault.jpg",
+                        "buttons": [
+                          {
+                            "url": "https://tntsports.com.br/championsleague/Real-Madrid-x-Manchester-City-Veja-lances-da-semifinal-da-Champions-League-20220504-0007.html",
+                            "type": "web_url",
+                            "title": "Veja a notícia completa aqui"
+                          },
+                          {
+                            "title": "Finalizar a conversa",
+                            "payload": "DEVELOPER_DEFINED_PAYLOAD",
+                            "type": "postback"
+                          }
+                        ],
+                        "subtitle": "Olha o real chegando na final da Champions League",
+                        "title": "Notícias Quentinhas sobre esportes!"
+                      }
+                    ],
+                    "template_type": "generic"
+                  },
+                  "type": "template"
+                }
+              }
+            }
+          },
+          {
+            "type": "message",
+            "condition": "",
+            "speech": []
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "Esportes",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "6a2b39c0-afea-46b8-82db-275b09a46776",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }
