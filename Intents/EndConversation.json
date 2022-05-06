@@ -1,0 +1,53 @@
+{
+    "id": "580cb3a6-1538-43df-bf61-2947b9da2488",
+    "name": "Finalizar.Casper",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+      {
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [],
+        "defaultResponsePlatforms": {},
+        "messages": [
+          {
+            "type": "message",
+            "condition": "",
+            "speech": [
+              "Até mais!! Byeeeeee"
+            ]
+          }
+        ],
+        "resetContexts": false
+      }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+      {
+        "isTemplate": false,
+        "data": [
+          {
+            "text": "   {\r                 \"payload\": \"DEVELOPER_DEFINED_PAYLOAD\",\r                 \"title\": \"Finalizar a conversa\",\r                 \"type\": \"postback\"\r               }",
+            "userDefined": false
+          }
+        ],
+        "count": 0,
+        "id": "b1f01ecd-ddc0-4e9d-bdc6-52b27ea12efc",
+        "updated": null
+      }
+    ],
+    "webhookForSlotFilling": false,
+    "webhookUsed": false
+  }
