@@ -2,7 +2,7 @@
     "payload": {
       "elements": [
         {
-          "title": "Espotes",
+          "title": "",
           "default_action": {
             "url": "<DEFAULT_URL_TO_OPEN>",
             "type": "web_url",
@@ -10,8 +10,8 @@
             "webview_height_ratio": "FULL"
           },
           "buttons": "",
-          "image_url": "https://poupafarma.com.br/wp-content/uploads/2017/03/imgesportes.jpg",
-          "subtitle": "Você receberá notícias sobre esportes"
+          "image_url": "",
+          "subtitle": ""
         }
       ],
       "template_type": "generic"
