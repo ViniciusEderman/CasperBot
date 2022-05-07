@@ -72,8 +72,42 @@ label {
 }
 
 input {
-    border-bottom: 2px rgb(243, 3, 111);
+    border-bottom: 2px solid #323232;
     padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: #e60084;
+}
+
+input[type='submite'] {
+    background-color: #e60084;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement {
+    margin-right: 5px;
+
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+.error-validation {
+    color: rgb(246, 16, 16);
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
 }
