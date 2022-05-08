@@ -9,7 +9,7 @@ class Validator {
         let inputs = form.getElementsByTagName('input');
         let inputsArray = [...inputs];
 
-        inputsArray.forEach(function(input){
+         inputsArray.forEach(function(input){
             for(let i = 0; this.validations.length > i; i++) {
                 if(input.getAttribute(this.validations[i]) != null) {
                     
@@ -47,11 +47,11 @@ class Validator {
 }
 
 let form = document.getElementById("register-form");
-let submite = document.getElementById("btn-submit");
+let submit = document.getElementById("btn-submit");
 let validator = new Validator();
 
-submite.addEventListener('click', function(e) {
+submit.addEventListener('click', function(e) {
     e.preventDefault();
 
     validator.validate(form);
-});
+});  
