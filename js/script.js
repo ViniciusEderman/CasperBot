@@ -1,9 +1,12 @@
 class Validator {
     constructor() {
         this.validations = [
+            'data-required',
             'data-min-length',
             'data-max-length',
-            'data-required',
+            'data-email-validate',
+            'data-only-letters',
+            'data-equal',
         ]
     }
 
@@ -45,16 +48,36 @@ class Validator {
         }
     }
 
+    emailvalidate(input) {
+        let re = /\S+@\S+\.\S+/;
+        let email = input.value;
+        let errorMessage = `Insira um e-mail como no exemplo a seguir: exemplo@email.com.br`;
+
+        if(!re.test(email)) {
+            this.printMessage(input, errorMessage);
+        }
+    }
+
+    onlyletters(input) {
+        let re = /^[A-Za-z]+$/;
+        let inputValue = input.value;
+        let errorMessage = `Este campo apenas aceita letras`;
+
+        if(!re.test(inputValue)) {
+            this.printMessage(input, errorMessage);
+        }
+    }
+
     printMessage(input, msg) {
-        let template = document.querySelector('.error-validation').cloneNode(true);
+        let errorQty = input.parentNode.querySelector('.error-validation');
 
-        template.textContent = msg;
-
-        let inputParent = input.parentNode;
-
-        template.classList.remove('template');
-
-        inputParent.appendChild(template);
+        if(errorQty === null) {
+            let template = document.querySelector('.error-validation').cloneNode(true);
+            template.textContent = msg;
+            let inputParent = input.parentNode;
+            template.classList.remove('template');
+            inputParent.appendChild(template);
+        }
     }
 
     required(input) {
@@ -62,6 +85,15 @@ class Validator {
         if (inputValue === '') {
             let errorMessage = `Este campo é obrigatório, não o deixe vazio`;
 
+            this.printMessage(input, errorMessage);
+        }
+    }
+
+    equal(input, inputName) {
+        let inputToCompare = document.getElementsByName(inputName)[0];
+        let errorMessage = `Precisa estar igual ao ${inputName}`;
+
+        if(input.value != inputToCompare.value) {
             this.printMessage(input, errorMessage);
         }
     }
