@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="/public/style.css">
 </head>
+
 <body>
-    <h1>
-        BORA TESTAR
-    </h1>
-
-
+    <div id="login-container">
+        <h1>Login</h1>
+        <form action="">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
+          <label for="password">Senha</label>
+          <input type="password" name="password" id="password" placeholder="Digite sua senha">
+          <input type="submit" value="Acessar">
+        </form>
+        <div>
+            <p>Ainda não é registrado?</p>
+            <a href="/src/pages/index.html">Clique aqui para se registrar</a>
+        </div>
+    </div>
 </body>
+
 </html>
