@@ -70,3 +70,14 @@ label {
     opacity: 0;
 }
 
+.upload_img {
+    display: flex;
+    border: 3px solid rgb(130, 87, 230);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
